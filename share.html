@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2a2b2a;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .social-media {
+            position: relative;
+        }
+        input {
+            position: absolute;
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            border: none;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.034);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: .3s;
+        }
+        img {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: none;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.034);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: .3s;
+        }
+        .share {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            z-index: 11;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        i {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            z-index: 10;
+        }
+        .share:focus-within ~ .facebook {
+            margin-top: -100px;
+            margin-left: 50px;
+            transition: .4s;
+        }
+        .share:focus-within ~ .instagram {
+            margin-left: 100px;
+            margin-top: 0px;
+            transition: .5s;
+        }
+        .share:focus-within ~ .twitter {
+            margin-top: 100px;
+            margin-left: 50px;
+            transition: .6s;
+        }
+        .share:focus-within ~ .linkedin {
+            margin-left: -50px;
+            margin-top: -100px;
+            transition: .6s;
+        }
+        .share:focus-within ~ .youtube {
+            margin-left: -100px;
+            transition: .8s;
+        }
+        .share:focus-within ~ .github {
+            margin-left: -50px;
+            margin-top: 100px;
+            transition: .7s;
+        }
+        .compartilhe {
+            width: 81px;
+            height: 81px;
+            z-index: 9;
+            background-color: whitesmoke;
+        }
+        .instagram {
+            z-index: 7;
+        }
+        .instagram:hover, .facebook:hover, .twitter:hover, .linkedin:hover, .youtube:hover, .github:hover {
+            width: 82px;
+            height: 82px;
+            transition: .2s ease-in-out;
+            outline: white 4px solid;
+        }
+        .twitter {
+            background-color: cornflowerblue;
+            z-index: 6;
+        }
+        .linkedin {
+            z-index: 5;
+        }
+        .youtube {
+            z-index: 4;
+        }
+        .snapchat {
+            z-index: 3;
+        }
+        .reddit {
+            z-index: 2;
+        }
+        .github {
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="social-media">
+        <div class="share">
+            <i class="fas fa-share-alt fa-2x"></i>
+            <input type="button" class="compartilhe">
+        </div>
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" class="facebook">
+        <img src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955024.png?token=exp=1638821135~hmac=789e3555503b2474acf8a98a727b66aa" class="instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" class="twitter">
+        <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" class="linkedin">
+        <img src="https://cdn-icons.flaticon.com/png/128/3670/premium/3670147.png?token=exp=1638821203~hmac=287039f66547fe32ba72a99131f9ade0" class="youtube">
+        <img src="https://cdn-icons-png.flaticon.com/128/919/919847.png" class="github">
+    </div>
+</body>
+</html>
