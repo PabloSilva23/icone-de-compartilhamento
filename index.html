@@ -17,126 +17,95 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .social-media {
-            position: relative;
+        img {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            transition: .5s;
+            top: 50%;
+            left: 50%;
         }
         input {
-            position: absolute;
-            width: 31px;
-            height: 31px;
-            border-radius: 50%;
-            border: none;
-            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.034);
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            transition: .3s;
+            display: none;
         }
-        img {
+        .images {
             position: absolute;
             width: 80px;
             height: 80px;
-            border-radius: 50%;
-            border: none;
-            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.034);
-            top: 50%;
-            left: 50%;
             transform: translate(-50%, -50%);
-            transition: .3s;
         }
-        .share {
-            width: 80px;
-            height: 80px;
+        .circle {
             position: absolute;
-            z-index: 11;
-            top: 50%;
-            left: 50%;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border-radius: 50%;
+            z-index: 7;
             transform: translate(-50%, -50%);
         }
         i {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             position: absolute;
-            z-index: 10;
+            z-index: 8;
+            transform: translate(-50%, -50%);
         }
-        .share:focus-within ~ .facebook {
-            margin-top: -100px;
-            margin-left: 50px;
-            transition: .4s;
-        }
-        .share:focus-within ~ .instagram {
-            margin-left: 100px;
-            margin-top: 0px;
+        input:checked ~ .images .facebook {
+            transform: translate(10px, -100px);
             transition: .5s;
         }
-        .share:focus-within ~ .twitter {
-            margin-top: 100px;
-            margin-left: 50px;
-            transition: .6s;
+        input:checked ~ .images .instagram {
+            transform: translate(45px, -30px);
+            transition: .5s .1s;
         }
-        .share:focus-within ~ .linkedin {
-            margin-left: -50px;
-            margin-top: -100px;
-            transition: .6s;
+        input:checked ~ .images .twitter {
+            transform: translate(10px, 40px);
+            transition: .5s .2s;
         }
-        .share:focus-within ~ .youtube {
-            margin-left: -100px;
-            transition: .8s;
+        input:checked ~ .images .whatsapp {
+            transform: translate(-70px, 40px);
+            transition: .5s .3s;
         }
-        .share:focus-within ~ .github {
-            margin-left: -50px;
-            margin-top: 100px;
-            transition: .7s;
+        input:checked ~ .images .youtube {
+            transform: translate(-110px, -30px);
+            transition: .5s .4s;
         }
-        .compartilhe {
-            width: 81px;
-            height: 81px;
-            z-index: 9;
-            background-color: whitesmoke;
+        input:checked ~ .images .linkedin {
+            transform: translate(-70px, -100px);
+            transition: .5s .5s;
         }
-        .instagram {
-            z-index: 7;
-        }
-        .instagram:hover, .facebook:hover, .twitter:hover, .linkedin:hover, .youtube:hover, .github:hover {
-            width: 82px;
-            height: 82px;
-            transition: .2s ease-in-out;
-            outline: white 4px solid;
-        }
-        .twitter {
-            background-color: cornflowerblue;
-            z-index: 6;
-        }
-        .linkedin {
-            z-index: 5;
-        }
-        .youtube {
-            z-index: 4;
-        }
-        .snapchat {
-            z-index: 3;
-        }
-        .reddit {
-            z-index: 2;
-        }
-        .github {
+        .facebook {
             z-index: 1;
         }
-    </style>
+        .instagram {
+            z-index: 2;
+        }
+        .twitter {
+            z-index: 3;
+        }
+        .whatsapp {
+            z-index: 4;
+        }
+        .youtube {
+            z-index: 5;
+        }
+        .linkedin {
+            z-index: 6;
+        }
+        </style>
 </head>
 <body>
-    <div class="social-media">
-        <div class="share">
-            <i class="fas fa-share-alt fa-2x"></i>
-            <input type="button" class="compartilhe">
-        </div>
-        <img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626269.png?token=exp=1639250386~hmac=95bd67da433176807f8e76971688cb90" class="facebook">
-        <img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626270.png?token=exp=1639250316~hmac=48fc59ca5b4a7c402dfaf89c67c4145c" class="instagram">
-        <img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626271.png?token=exp=1639250454~hmac=2a4ed0a55ce02e3e23ca60972d993508" class="twitter">
-        <img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626273.png?token=exp=1639250420~hmac=b9face4a92e574a4cb7ccaf693ae9e0e" class="linkedin">
-        <img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626292.png?token=exp=1639250341~hmac=2b6e08a38c86dff0e1ac67bf013f3327" class="youtube">
-        <img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626279.png?token=exp=1639250516~hmac=8ae45f4c5beee5c88cce442cd95a2140" class="github">
-    </div>
+    <label>
+        <i class="fas fa-share-alt fa-2x"></i>
+        <input type="checkbox" class="compartilhe">
+        <div class="circle"></div>
+        <div class="images">
+            <a href="https://www.facebook.com/"><img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626269.png?token=exp=1639250386~hmac=95bd67da433176807f8e76971688cb90" class="facebook"></a>
+            <a href="https://www.instagram.com/_pablosilvax/"><img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626270.png?token=exp=1639250316~hmac=48fc59ca5b4a7c402dfaf89c67c4145c" class="instagram"></a>
+            <a href="https://twitter.com/i/flow/login"><img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626271.png?token=exp=1639250454~hmac=2a4ed0a55ce02e3e23ca60972d993508" class="twitter"></a>
+            <a href="https://www.linkedin.com/in/pablosilva069/"><img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626273.png?token=exp=1639250420~hmac=b9face4a92e574a4cb7ccaf693ae9e0e" class="linkedin"></a>
+            <a href="https://www.youtube.com/?gl=BR&hl=pt"><img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626292.png?token=exp=1639250341~hmac=2b6e08a38c86dff0e1ac67bf013f3327" class="youtube"></a>
+            <a href="https://www.whatsapp.com/?lang=pt_br"><img src="https://cdn-icons.flaticon.com/png/512/2626/premium/2626279.png?token=exp=1639250516~hmac=8ae45f4c5beee5c88cce442cd95a2140" class="whatsapp"></a>
+    </label>
 </body>
 </html>
