@@ -74,6 +74,40 @@
             transform: translate(-70px, -100px);
             transition: .5s .5s;
         }
+        @media screen and (max-width: 425px) {
+            img {
+                height: 80px;
+                width: 80px;
+            }
+            .circle {
+                width: 85px;
+                height: 85px;
+            }
+            input:checked ~ .images .facebook {
+            transform: translate(20px, -120px);
+            transition: .5s;
+        }
+        input:checked ~ .images .instagram {
+            transform: translate(55px, -40px);
+            transition: .5s .1s;
+        }
+        input:checked ~ .images .twitter {
+            transform: translate(20px, 40px);
+            transition: .5s .2s;
+        }
+        input:checked ~ .images .whatsapp {
+            transform: translate(-90px, 40px);
+            transition: .5s .3s;
+        }
+        input:checked ~ .images .youtube {
+            transform: translate(-135px, -40px);
+            transition: .5s .4s;
+        }
+        input:checked ~ .images .linkedin {
+            transform: translate(-90px, -120px);
+            transition: .5s .5s;
+        }
+        }
         .facebook {
             z-index: 1;
         }
