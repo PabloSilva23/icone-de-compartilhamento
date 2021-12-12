@@ -41,6 +41,7 @@
             width: 70px;
             height: 70px;
             background-color: white;
+            box-shadow: 4px 1px 4px black;
             border-radius: 50%;
             z-index: 7;
             transform: translate(-50%, -50%);
@@ -78,13 +79,14 @@
             img {
                 height: 80px;
                 width: 80px;
+                border-radius: 50%;
             }
             .circle {
                 width: 85px;
                 height: 85px;
             }
             input:checked ~ .images .facebook {
-            transform: translate(20px, -120px);
+            transform: translate(10px, -120px);
             transition: .5s;
         }
         input:checked ~ .images .instagram {
@@ -92,11 +94,11 @@
             transition: .5s .1s;
         }
         input:checked ~ .images .twitter {
-            transform: translate(20px, 40px);
+            transform: translate(10px, 40px);
             transition: .5s .2s;
         }
         input:checked ~ .images .whatsapp {
-            transform: translate(-90px, 40px);
+            transform: translate(-80px, 40px);
             transition: .5s .3s;
         }
         input:checked ~ .images .youtube {
@@ -104,7 +106,7 @@
             transition: .5s .4s;
         }
         input:checked ~ .images .linkedin {
-            transform: translate(-90px, -120px);
+            transform: translate(-80px, -120px);
             transition: .5s .5s;
         }
         }
