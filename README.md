@@ -13,8 +13,8 @@ Para ver o projeto [clique aqui](https://pablosilva23.github.io/share/).
 
 Quando o ícone é clicado, ele nos mostrará quais redes sociais podemos compartilhar determinada informação e cada uma delas possui um link direcionando-o para o domínio do mesmo.
 
-## Elementos e seletores utilizados
+## Elementos e métodos utilizados
 
 * **input: "checkbox"**
 * **label**
-* **regra do adjacente**
+* **regra do irmão geral**
