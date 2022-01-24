@@ -9,5 +9,7 @@ O intuíto deste projeto é praticar as habilidades adquiridas durante o meu apr
 
 Para ver o projeto [clique aqui](https://pablosilva23.github.io/share/).
 
-## Propriedades e seletores usados
+## Elementos e seletores usados
 
+* **input: "checkbox"**
+* **label**
