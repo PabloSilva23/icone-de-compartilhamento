@@ -1,7 +1,8 @@
 # Ícone de compartilhamento
 
 
-![Share](https://user-images.githubusercontent.com/87915108/150720471-64161743-807a-46c2-a428-d28ad148e245.png)
+![Share](https://user-images.githubusercontent.com/87915108/150835436-35d2f7d7-e20e-4b22-bd64-98b9f9126863.gif)
+
 
 # Sobre o projeto
 
