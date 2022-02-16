@@ -23,7 +23,3 @@ Quando o ícone é clicado, ele nos mostrará quais redes sociais podemos compar
 
 Antes de começar, você vai precisar ter instalado em usa máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/). Além disso, é bom ter um editor para trabalhar com o código, como: [VS Code](https://code.visualstudio.com/).
 
-<p>
-Rodando o Front-end
-</p>
-
