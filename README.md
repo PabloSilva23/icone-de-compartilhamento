@@ -27,5 +27,10 @@ Antes de começar, você vai precisar ter instalado em usa máquina as seguintes
 Rodando o Front-end
 </p>
 ```Bash
-git clone 
+#Clone o repositório
+$ git clone <https://github.com/PabloSilva23/share.git>
+
+#Acessar a pasta do projeto no terminal/cmd
+
+$ cd 
 ```
