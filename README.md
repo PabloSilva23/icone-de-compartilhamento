@@ -38,26 +38,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Compartilhar nas redes sociais.
 
-<h2 id="responsividade">Responsividade 📱🖥️</h2>
-
-<details>
-<summary>Telas 📺</summary>
- 
-   <h3 align="center">Mobile 📱</h3>
- <div align="center">
-   <img src="https://user-images.githubusercontent.com/87915108/154840296-fb01a75e-3674-4902-a43b-1560a19f9cee.png" width="200px"></img>
- </div>
-   <h3 align='center'>Notebook 💻</h3>
-   <div align="center">
-   <img src="https://user-images.githubusercontent.com/87915108/154840310-dd1dc5c0-07b9-49f9-8191-43c93989a01e.png" width="600px"></img>
-  </div>
- 
-</details>
-
 ## Layout 🖼️
 
-- Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/uDKVAQqnBCm1W1HOFsSMTN/Insurebound---html5-template-for-insurance-agency-free-download-(Community)?node-id=69%3A5241).
-- Retirada da comunidade do [Figma](https://www.figma.com/).
+- Retirada das páginas de HTML e CSS do [Instagram](https://www.instagram.com/).
 
 ## Requisitos ⚙️
 
