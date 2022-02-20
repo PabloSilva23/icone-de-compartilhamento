@@ -1,8 +1,8 @@
-# Ícone de compartilhamento
+<h1 align="center">Ícone de compartilhamento</h1>
 
-
-![Share](https://user-images.githubusercontent.com/87915108/150835436-35d2f7d7-e20e-4b22-bd64-98b9f9126863.gif)
-
+<div align="center">
+  <img src= "https://user-images.githubusercontent.com/87915108/150835436-35d2f7d7-e20e-4b22-bd64-98b9f9126863.gif"></img>
+</div>
 
 
 
